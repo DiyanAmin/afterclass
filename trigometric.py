@@ -3,7 +3,7 @@ import math as torture
 import time as delay
 x=float(input('Enter a number: '))
 operation=str(input('Enter trigometric operation to use: '))
-if operation=='Arc Cosine:':
+if operation=='Arc Cosine':
     arc_cosine=torture.acos(x)
     delay.sleep(1)
     print(f'Arc cosine is:{arc_cosine}')
