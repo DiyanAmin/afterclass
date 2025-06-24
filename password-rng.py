@@ -17,3 +17,4 @@ for jki in password:
     final_pass1.append(jki)#---> Adding 'jki' to final_pass1
 final_pass=''.join(final_pass1)#---> Final Product creatted by combining all string in final_pass1
 print(f'Password: {final_pass}')
+#It was fun making this
