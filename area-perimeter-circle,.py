@@ -4,13 +4,11 @@ pi=math.pi
 class Circle:
     def __init__(self,radius):
         self.radius=radius
-    def area(self,radius):
+    def area(self):
         #Area = Pi & Radius power 2
-        area_circ=pi+(radius**2)
-    def perimeter(self,radius):
-        peri=2*pi*radius
+        return self.radius**2*pi
+    def perimeter(self):
+        return 2*self.radius*pi
 rad=int(input('Radius: '))
 call_class=Circle(rad)
-ae=Circle(rad).area(rad)
-pr=Circle(rad).perimeter(rad)
-print(f'Radius: {call_class.radius}\nArea: {''}')
+print(f'Radius: {rad}\nArea: {call_class.area()}\nPerimeter: {call_class.perimeter()}')
